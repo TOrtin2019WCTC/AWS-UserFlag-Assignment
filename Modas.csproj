@@ -62,6 +62,10 @@
     <Content Remove="wwwroot\js\bootstrap.min.js" />
     <Content Remove="wwwroot\js\bootstrap.min.js.map" />
     <Content Remove="appsettings.json" />
+    <Content Remove="wwwroot\json.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Controllers\EventController.css" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\all.css" />
